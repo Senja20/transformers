@@ -61,6 +61,12 @@ For CPU-support only, you can conveniently install 🤗 Transformers and a deep 
 pip install 'transformers[torch]'
 ```
 
+If you are using Windows cmd, make sure to use double quotes:
+
+```bash
+pip install "transformers[torch]"
+```
+
 🤗 Transformers and TensorFlow 2.0:
 
 ```bash
